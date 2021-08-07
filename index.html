@@ -1,139 +1,134 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--==================== UNICONS ====================-->
-         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Portfolio Website</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-             <nav class="nav-container">
-                <a href="#Vaibhav" class="nav_logo">Vaibhav</a>
-                <div class="nav_menu" id="nav_menu">
-                    <ul class="nav_list grid">
-                        <li class="nav_item">
-                            <a href="#Home" class="nav_link">
-                                <i class="uil uil-estate"></i> Home
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#About" class="nav_link">
-                                <i class="uil uil-user"></i>About
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#Skills" class="nav_link">
-                                <i class="uil uil-file-alt"></i>Skills
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#Services" class="nav_link">
-                                <i class="uil uil-briefcase-alt"></i>Services
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#" class="nav_link">
-                                <i class="uil uil-scenery"></i> PortFolio
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#contact" class="nav_link">
-                                <i class="uil uil-message"></i> ContactMe
-                            </a>
-                        </li>
-                    </ul>
-                     <i class="uil uil-times nav_close" id="nav-close"></i>
-                </div>
-                <div class="nav_btns">
-                    <div class="nav_toggle" id="nav-toggle">
-                         <i class="uil uil-apps"></i>
-                        
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/img/" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="#">Services</a></li>
+                <li class="nav__item"><a href="#">About Me</a></li>
+                <li class="nav__item"><a href="#">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-------------------------------------- Introduction Section -------------------------------------->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro"> Hi, I am <strong>Vaibhav Agarwal</strong></h1>
+        <p class="section__subtitle  section__subtitle--intro">Competitve Programmer + Developer</p>
+        <img src="assets/img/vaibhav.png" alt="vaibhav_agarwal" class="intro__img">
+    </section>
+
+
+    <!----------------------------------------What I DO----------------------------------------------->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Competitve Programming</h3>
+                <p>I am a Competitve programmer with good decent knowledge of data structures and algorithms, and have good maths skills. My current Rating are 1349(1399 Highest) on codeforces, and 1461(1461 Highest) on codechef.
+                </p>
+            </div>
+            <!--Closing Service-->
+
+            <div class="service">
+                <h3>Problem Solving</h3>
+                <p>
+                    I love solving problem on data structures and algorithms on various online judges such as leetcode, GeeksForGeeks, interviewBit, hackerearth etc. I have solved almost 500+ problems on these online judges.
+                </p>
+            </div>
+            <!--Closing Service-->
+
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>
+                    Recently I started working on my Web development skills starting from HTML, CSS, and slowly and steadily moving towards to the javascript part.
+                </p>
+            </div>
+            <!--Closing Service-->
+        </div>
+        <a href="#Coding__handles--list" class="btn">My Coding Handles</a>
+    </section>
+
+
+    <!---------------------------- About Me------------------------------------------>
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtile section__subtitle--about">Competitve Programer and Developer</p>
+        <div class="about-me__body">
+            <p>My name is Vaibhav Agarwal and I am 2nd Year Studnet pursuing <b>Electronics and Computer Engineering from JC Bose University, YMCA.</b></p>
+            <p>I love competitve programming and loves to solve problems that uses are mind and aptitude, giving contest on competitve websites is fun for me. Current <b>Pupil</b> on codeforces and <b>4 star</b> at codechef, my aim is to reach <b>Expert</b>                at codeforces and
+                <strong>5 star </strong> at codechef I recently started working on my Development skills, and this portfolio is my first website hosted on the internet. Beside coumputer stuff I love to <b> read books, Cycling, Movies, Animes, and playing computer games</b>.
+            </p>
+        </div>
+        <img src="assets/img/vaibhav.jpeg" alt="Vaibhav" class="about--me__img">
+    </section>
+
+
+
+    <!------------------------------------------ Footer ------------------------>
+    <footer>
+        <div class="footer-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul id="services--list">
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Coding Handles</h3>
+                        <ul id="Coding__handles--list">
+                            <li><a href="https://codeforces.com/profile/va14">Codeforces</a></li>
+                            <li><a href="https://www.codechef.com/users/va14">CodeChef</a></li>
+                            <li><a href="https://leetcode.com/va14/">LeetCode</a></li>
+                            <li><a href="https://auth.geeksforgeeks.org/user/va14">GeeksForGeeks</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Vaibhav Agarwal</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://github.com/v-a14"><i class="icon ion-social-github"></i></a>
+                        <a href="https://twitter.com/va_a14"><i class="icon ion-social-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/va14/"><i class="icon ion-social-linkedin"></i></a>
+                        <a href="https://www.instagram.com/va_a14/"><i class="icon ion-social-instagram"></i></a>
                     </div>
                 </div>
-            </nav>
-            
-        </header>
+                <p class="copyright">Vaibhav Agarwal © 2021</p>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    </footer>
+</body>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-
-        
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-
-
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-
-
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-
-            
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
-
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
-
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
