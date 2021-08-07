@@ -176,6 +176,12 @@ h3 {
     text-align: center;
 }
 
+.service h3 {
+    font-size: large;
+    font-weight: 900;
+    font-style: italic;
+}
+
 .section__title--services {
     color: var(--clr-accent);
     position: relative;
